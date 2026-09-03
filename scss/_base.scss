@@ -13,3 +13,9 @@ html, body{
     letter-spacing: 0px;
 
 }
+
+.header-button:focus-visible,
+.pre-order_button:focus-visible {
+    outline: 3px solid #162542;
+    outline-offset: 3px;
+}

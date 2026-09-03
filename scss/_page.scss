@@ -455,3 +455,32 @@
         margin-top: 0px;
     }
 }
+
+// ====================================
+
+.footer{
+    margin-top: 120px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-copy{
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0px;
+    color: variables.$neutral400;
+    font-weight: 500;
+}
+@media (max-width: 767.98px) {
+    .footer{
+        margin-top: 80px;
+        margin-bottom: 40px;
+    }
+}
+@media (max-width: 424.98px) {
+    .footer{
+        margin-top: 64px;
+        margin-bottom: 24px;
+    }
+}
